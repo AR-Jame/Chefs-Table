@@ -7,8 +7,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        lexend: ['Lexend', 'sans-serif'], // Include fallback fonts
+        fira: ['Fira Sans', 'sans-serif'], // Ensure spacing for multiple-word names
+      },
+    },
   },
-  plugins: [daisyui], // Use the ESM import
+  plugins: [daisyui],
 };
-

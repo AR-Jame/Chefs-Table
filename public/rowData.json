@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "recipe_name": "Spaghetti Carbonara",
+      "recipe_image": "https://img.freepik.com/free-photo/top-view-food-ingredients-with-vegetable-soup-bowl-notebook_23-2148834720.jpg?t=st=1731948197~exp=1731951797~hmac=0ed73a6d9431b7712bdeac628deb9c33663117d57d0502d7364a681c1eb7cbc9&w=1380",
+      "short_description": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
+      "ingredients": ["Spaghetti", "Eggs", "Parmesan cheese", "Pancetta", "Black pepper", "Salt"],
+      "preparing_time": 20,
+      "calories": 420
+    },
+    {
+      "id": 2,
+      "recipe_name": "Chicken Caesar Salad",
+      "recipe_image": "https://img.freepik.com/premium-photo/bruschetta-caponata-with-raisins-pine-nuts-decorated-with-leaf-basil_2829-4028.jpg?w=1380",
+      "short_description": "A hearty salad with grilled chicken, romaine lettuce, croutons, and Caesar dressing.",
+      "ingredients": ["Chicken breast", "Romaine lettuce", "Croutons", "Caesar dressing", "Parmesan cheese"],
+      "preparing_time": 25,
+      "calories": 350
+    },
+    {
+      "id": 3,
+      "recipe_name": "Chocolate Chip Cookies",
+      "recipe_image": "https://img.freepik.com/free-photo/pasta-with-zucchini-chicken-green-peas_2829-11896.jpg?t=st=1731948267~exp=1731951867~hmac=21e062c4a40138167ce3ed4bb9241fd187b2ed043ed2aff859ee0c80510b1762&w=1380",
+      "short_description": "Chewy and gooey chocolate chip cookies perfect for a quick dessert.",
+      "ingredients": ["Flour", "Butter", "Sugar", "Brown sugar", "Eggs", "Vanilla extract", "Baking soda", "Chocolate chips"],
+      "preparing_time": 30,
+      "calories": 180
+    },
+    {
+      "id": 4,
+      "recipe_name": "Vegetable Stir Fry",
+      "recipe_image": "https://img.freepik.com/free-photo/ukrainian-russian-national-red-soup-borsch-closeup_2829-13751.jpg?t=st=1731948302~exp=1731951902~hmac=2acb7a1504097dd4a267bdaa0a104561195b5a37595cde08f92670330c1ee328&w=826",
+      "short_description": "A quick and healthy dish with fresh veggies and a savory sauce.",
+      "ingredients": ["Broccoli", "Carrots", "Bell peppers", "Soy sauce", "Garlic", "Ginger", "Sesame oil"],
+      "preparing_time": 15,
+      "calories": 200
+    },
+    {
+      "id": 5,
+      "recipe_name": "Avocado Toast",
+      "recipe_image": "https://img.freepik.com/free-photo/pasta-shape-heart-salad-with-tomatoes-cucumbers-olives-mozzarella-red-onion-greek-style_2829-14032.jpg?t=st=1731948335~exp=1731951935~hmac=396c8778b0201222103c697a20ef80249b01e735a150726e0fc82bb6a46eacdd&w=1380",
+      "short_description": "A trendy breakfast option with mashed avocado on toasted bread.",
+      "ingredients": ["Bread", "Avocado", "Lemon juice", "Salt", "Pepper", "Red chili flakes"],
+      "preparing_time": 10,
+      "calories": 250
+    },
+    {
+      "id": 6,
+      "recipe_name": "Berry Smoothie Bowl",
+      "recipe_image": "https://img.freepik.com/free-photo/chicken-skewers-with-slices-sweet-peppers-dill-tasty-food-weekend-meal_2829-7043.jpg?t=st=1731949626~exp=1731953226~hmac=7c6afb7ffb52a6ec1f86c0c43f0b9f6b5f8ae37f32bbd43510f5b6932d9887d9&w=1380",
+      "short_description": "A refreshing and healthy smoothie bowl topped with fresh fruits and granola.",
+      "ingredients": ["Frozen berries", "Banana", "Almond milk", "Granola", "Chia seeds"],
+      "preparing_time": 5,
+      "calories": 300
+    }
+  ]
+  
