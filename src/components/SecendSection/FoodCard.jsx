@@ -1,9 +1,9 @@
 import { FaSuperpowers } from "react-icons/fa6";
 import { IoMdTime } from "react-icons/io";
 import PropTypes from "prop-types";
-const FoodCard = ({ singleData }) => {
+const FoodCard = ({ singleData, handleClicked }) => {
     const { recipe_name, recipe_image, short_description, ingredients,preparing_time, calories } = singleData
-    console.log(ingredients)
+    // console.log(ingredients)
     return (
         <div>
             <div className="card bg-base-100 border">
@@ -34,7 +34,9 @@ const FoodCard = ({ singleData }) => {
                         </div>
                     </div>
                     <div className="card-actions">
-                    <button className="btn font-medium mr-4 rounded-full bg-[#0BE58A] border-none hover:bg-[#0BE58A]">Want to cock</button>
+                    <button onClick={()=>handleClicked(singleData)} className="btn font-medium mr-4 rounded-full bg-[#0BE58A] border-none hover:bg-[#0BE58A]">
+                        Want to cook
+                        </button>
                     </div>
                 </div>
             </div>
@@ -42,7 +44,8 @@ const FoodCard = ({ singleData }) => {
     );
 };
 FoodCard.propTypes = {
-    singleData: PropTypes.object
+    singleData: PropTypes.object,
+    handleClicked: PropTypes.func
 }
 
 export default FoodCard;

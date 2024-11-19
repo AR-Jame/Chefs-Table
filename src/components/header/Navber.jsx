@@ -1,6 +1,4 @@
 import { FaCircleUser } from "react-icons/fa6";
-
-
 const Navber = () => {
     return (
         <div className="font-lexend">
